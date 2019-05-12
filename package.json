@@ -1,0 +1,16 @@
+{
+  "name": "films-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "app": "node app.js",
+    "serve": "browser-sync start -s \"src\" -f \".\"",
+    "test": "exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^2.26.5"
+  }
+}
